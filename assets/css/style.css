@@ -74,7 +74,7 @@ hr {
     padding-right: 15px;
 }
 
-.container {
+.container, .containerpotfolio {
     clear: both;
     width: 960px;
     margin: 30px auto;
@@ -96,19 +96,13 @@ h3 {
     padding: 15px;
 }
 
-#hangman, #rpg, #trivia, #widget, #rps {
-    z-index: -1;
+#hangman {
     float: left;
-    position: relative;
+    margin-right: 50px;
 }
-
-#hangmantext, #rpgtext, #triviatext, #widgettext, #rpstext {
-    float: left;
-    position: absolute;
-}
-
 
 footer {
+    clear: both;
     background: #666666;
     border-top: #4aaaa5 8px solid;
     color: #dddddd;
