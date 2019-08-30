@@ -94,6 +94,11 @@ h3 {
     text-align: center;
     padding: 15px;
     margin-top: -60px;
+    z-index: 50;
+}
+
+#hangmantext {
+    z-index: 100;
 }
 
 footer {
