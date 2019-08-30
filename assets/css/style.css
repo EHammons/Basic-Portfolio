@@ -47,19 +47,22 @@ hr {
 
 .nav {
     float: right;
-    padding: 20px;
+    padding-top: 27px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .about, .portfolio, .contact {
-    padding: 0 10px;
     color: #777777;
     text-decoration: none;
 }
 
 .about, .portfolio {
-    border-right: #c0c0c0 solid 1px;
+    padding: 0 10px;
+    border-right: #c0c0c0 solid 1.25px;
+}
 
+.contact {
+    padding-left: 10px;
 }
 
 .container, footer {
