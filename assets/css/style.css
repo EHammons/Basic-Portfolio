@@ -94,9 +94,11 @@ h3 {
     text-align: center;
     padding: 15px;
     margin-top: -60px;
+    position: absolute
 }
 
 #hangman {
+    position: relative;
     z-index: 50;
 }
 
