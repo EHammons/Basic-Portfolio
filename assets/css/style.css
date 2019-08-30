@@ -74,7 +74,7 @@ hr {
     padding-right: 15px;
 }
 
-.container, .containerpotfolio {
+.container, .containerpotfolio, .containercontact {
     clear: both;
     width: 960px;
     margin: 30px auto;
