@@ -3,7 +3,8 @@
 }
 
 body {
-    background: rgb(255, 201, 201);
+    background-image: url(../images/background.png);
+    top: 74px;
 }
 
 header {
@@ -25,8 +26,9 @@ h1 {
 }
 
 hr {
-    padding: 1px;
     background: #cccccc;
+    height: 3px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -49,17 +51,17 @@ nav {
 
 #headshot {
     float: left;
-    margin-right: 10px
+    padding-right: 15px;
 }
 
 .container {
     clear: both;
     width: 960px;
-    margin: 20px auto;
+    margin: 30px auto;
     background: #ffffff;
     border: #dddddd 1px solid;
     padding: 20px;
-    margin-bottom: 60px
+    margin-bottom: 90px;
 }
 
 footer {
