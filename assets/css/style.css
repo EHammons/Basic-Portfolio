@@ -9,7 +9,8 @@ body {
 }
 
 header {
-    height: 74px;
+    position: relative;
+    height: 85px;
     background: #ffffff;
     font-family: Georgia, Times, 'Times New Roman', serif;
     border-bottom: #cccccc solid 2px;
@@ -32,11 +33,12 @@ p {
 
 hr {
     background: #cccccc;
-    height: 3px;
+    height: 2px;
     margin-bottom: 20px;
 }
 
 .logo {
+    position: relative;
     float: left;
     background: #4aaaa5;
     padding: 20px;
@@ -46,6 +48,7 @@ hr {
 }
 
 .nav {
+    position: relative;
     float: right;
     padding-top: 27px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
